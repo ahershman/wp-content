@@ -1,0 +1,63 @@
+#header {
+	font-family: "Museo Slab 100";
+	height: 185px;
+	width: 1064px;
+	left: 302px;
+}
+
+#Logo {
+	float: left;
+	width: 296px;
+	height: 185px;
+	background-color: #0;
+	background-repeat: no-repeat;
+	background-image: url(../Web%20site%20assets/logo_02.gif);
+	margin-right: 2px;
+	border-width: 0px 0px 2px 2px;
+	border-bottom-color: #ACBD4B;
+	border-left-color: #FFFFFF;
+	margin-bottom: 2px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#HeadImage {
+	width: 764px;
+	height: 132px;
+	float: none;
+	background-repeat: no-repeat;
+	background-image: url(../Web%20site%20assets/headerImage_02.gif);
+	position: relative;
+	left: 302px;
+}
+#Nav {
+	width: 765px;
+	height: 48px;
+	position: relative;
+	left: 302px;
+	top: 2px;
+}
+#Nav ul {
+	list-style-type: none;
+	color: 0;
+	font-family: "Museo Slab 100";
+	font-size: 15pt;
+	display: block;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #2BBE2D;
+	position: relative;
+	width: 764px;
+}
+#Nav li {
+	width: 15%;
+	text-align: center;
+	background-color: #F0B7B8;
+	float: left;
+}

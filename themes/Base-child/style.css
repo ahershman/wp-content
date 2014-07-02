@@ -1,0 +1,21 @@
+/*
+Theme Name: Base-child
+Theme URI: http://www.davincimaps.com
+Description: Child Theme for Base-wp
+Author: AaronH
+Author URI:http://www.davincimaps.com
+Template: base-wp
+Version: 0.1
+*/
+ 
+@import url("../base-wp/style.css");
+@font-face {
+	font-family:Sabon;  
+	src: local('Sabon'), 
+		url("Sabon") format('truetype');  
+	font-weight: normal;  
+}
+
+body {
+	font-family: 'Sabon', Arial, sans-serif;
+}

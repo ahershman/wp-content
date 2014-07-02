@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#header {
+	height: 187px;
+	width: 1064px;
+}
+#logo {
+	background-color: #EB181C;
+	float: left;
+	height: 185px;
+	width: 296px;
+}
+#headimage {
+	background-color: #37E12F;
+	height: 132px;
+	width: 764px;
+	float: left;
+	margin-left: 4px;
+	margin-top: 0px;
+}
+#mainnav {
+	height: 49px;
+	width: 764px;
+	background-color: #000000;
+	list-style: none;
+	padding: 0;
+	text-align: left;
+	float: left;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+ #mainnav a {
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #ffffff;
+	font-family: "Museo Slab 700";
+	text-decoration: none;
+	font-size: 20pt;
+}
+#mainnav  li {
+	text-transform: uppercase;
+	display: inline;
+}
+	
+	
+	
+#mainnav ul {
+	width: 764px;
+	position: static;
+	height: 49px;
+	margin-top: 7px;
+}
