@@ -1,0 +1,81 @@
+@charset "UTF-8";
+#header {
+	min-height: 125px;
+	z-index: 1000;
+	position: fixed;
+	margin-bottom: 4px;
+	max-width: 1134px;
+}
+#main {
+	min-height: 745px;
+	overflow-x: hidden;
+	max-width: 1134px;
+}
+.container {
+	
+}
+.textNav {
+	min-height: 571px;
+	margin-right: 4px;
+	float: left;
+	background-color: #CFC7C7;
+	min-width: 197px;
+	max-width: 197px;
+	top: 138px;
+	position: fixed;
+}
+#content {
+	min-height: 571px;
+	left: 200px;
+	top: 128px;
+	max-width: 934px;
+	position: relative;
+	background-color: #5BAA2E;
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+	display: inherit;
+}
+#slideshow {
+	height: 528px;
+	width: 879px;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	top: 9px;
+	left: 18px;
+}
+#s11 {
+	width: 544px;
+	height: 312px;
+	background-color: #E80C19;
+	float: left;
+	min-width: 544px;
+	min-height: 312px;
+}
+#s12 {
+	width: 335px;
+	height: 312px;
+	background-color: #880BEE;
+	min-width: 335px;
+	min-height: 312px;
+	float: left;
+}
+#s21 {
+	width: 300px;
+	height: 216px;
+	background-color: #DDBC0B;
+	float: left;
+	clear: left;
+}
+#s22 {
+	width: 579px;
+	height: 218px;
+	background-color: #000000;
+	float: right;
+}

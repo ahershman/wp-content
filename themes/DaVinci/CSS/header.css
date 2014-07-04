@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+#header {
+	height: 184px; 
+	width: 1068px;
+	position: fixed;
+	top: 0px;
+	z-index: 20000;
+	background-color: #ffffff;
+	padding-top: 2px;
+}
+#logo {
+	background-color: #000000;
+	float: left;
+	height: 180px;
+	width: 297px;
+	background-image: url(Web%20site%20assets/logo_02.gif);
+	border-bottom: 4px solid #626D2E;
+}
+#headimage {
+	height: 132px;
+	width: 765px;
+	float: left;
+	margin-left: 4px;
+	margin-top: 0px;
+	background-image: url(Web%20site%20assets/headerImage_02.gif);
+	background-origin: border-box;
+	margin-bottom: 4px;
+}
+#mainnav {
+	height: 48px;
+	width: 765px;
+	list-style: none;
+	text-align: left;
+	float: left;
+	background-color: #000000;
+	border-bottom: 4px solid #931F24;
+	border-right: 0px solid #FFFFFF;
+	margin-left: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#mainnav a {
+	display: inline-block;
+	color: #ffffff;
+	font-family: "museo-slab";
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 200;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 13px;
+}
+#mainnav  li {
+	display: inline;
+}
+
+#mainnav ul {
+	display: inline;
+}
+#navicons {
+	background-color: #31C6B1;
+	float: right;
+	height: 100px;
+	width: 200px;
+}
+#nav {
+	background-color: #EF3C3F;
+	height: 100px;
+	width: 700px;
+}
+

@@ -1,4 +1,8 @@
- As per word press 
+
+/* included style sheets */
+@include "header.css"
+
+/* as per wordpress */
 img.alignright {float:right; margin:0 0 1em 1em}
 img.alignleft {float:left; margin:0 1em 1em 0}
 img.aligncenter {display: block; margin-left: auto; margin-right: auto}
@@ -6,65 +10,6 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 .alignleft {float:left; }
 .aligncenter {display: block; margin-left: auto; margin-right: auto}
 
-
-#header {
-	height: 184px; 
-	width: 1068px;
-	position: fixed;
-	top: 0px;
-	z-index: 20000;
-	background-color: #ffffff;
-	padding-top: 2px;
-}
-#logo {
-	background-color: #000000;
-	float: left;
-	height: 180px;
-	width: 297px;
-	background-image: url(Web%20site%20assets/logo_02.gif);
-	border-bottom: 4px solid #626D2E;
-}
-#headimage {
-	height: 132px;
-	width: 765px;
-	float: left;
-	margin-left: 4px;
-	margin-top: 0px;
-	background-image: url(Web%20site%20assets/headerImage_02.gif);
-	background-origin: border-box;
-	margin-bottom: 4px;
-}
-#mainnav {
-	height: 48px;
-	width: 765px;
-	list-style: none;
-	text-align: left;
-	float: left;
-	background-color: #000000;
-	border-bottom: 4px solid #931F24;
-	border-right: 0px solid #FFFFFF;
-	margin-left: 4px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-#mainnav a {
-	display: inline-block;
-	color: #ffffff;
-	font-family: "museo-slab";
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: 200;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 13px;
-}
-#mainnav  li {
-	display: inline;
-}
-	
 
 #wrapper {
 	display: block;
@@ -84,6 +29,17 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	display: inherit;
 }
 
+.content-text {
+	width: 526px;
+	margin-left: 4px;
+	float: left;
+	font-family: "museo-slab";
+	font-weight: 300;
+	font-size: 11pt;
+	margin-top: 0px;
+	margin-bottom: 52px;
+}
+
 .content-image {
 	width: 297px;
 	margin-top: 0px;
@@ -94,16 +50,19 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	position: relative;
 	top: 17px;
 }
-
-.content-text {
-	width: 526px;
-	margin-left: 4px;
-	float: left;
-	font-family: "museo-slab";
-	font-weight: 300;
-	font-size: 11pt;
-	margin-top: 0px;
-	margin-bottom: 52px;
+.content-image img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8px;
+}
+.content-text h1 {
+	color: #931F24;
+	font-family: "jaf-bernino-sans-condensed";
+	font-weight: 700;
+	line-height: 26pt;
+	display: block;
+	font-size: 26px;
 }
 
 
@@ -126,15 +85,6 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	margin-right: 0px;
 	margin-bottom: -13px;
 	margin-left: 41px;
-}
-#delimiter { clear: both; }
-#footer { border: 2px #a2a2a2 solid; }
-.title {
-	font-size: 30pt;
-	font-weight: italic;
-}
-#mainnav ul {
-	display: inline;
 }
 
 body {
@@ -161,17 +111,11 @@ body {
 	text-transform: capitalize;
 	text-decoration: none;
 }
-.content-image img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -8px;
+
+#delimiter { clear: both; }
+#footer { border: 2px #a2a2a2 solid; }
+.title {
+	font-size: 30pt;
+	font-weight: italic;
 }
-.content-text h1 {
-	color: #931F24;
-	font-family: "jaf-bernino-sans-condensed";
-	font-weight: 700;
-	line-height: 26pt;
-	display: block;
-	font-size: 26px;
-}
+
