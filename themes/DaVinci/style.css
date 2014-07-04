@@ -1,6 +1,6 @@
 
 /* included style sheets */
-@include "header.css"
+@include "./CSS/header.css"
 
 /* as per wordpress */
 img.alignright {float:right; margin:0 0 1em 1em}

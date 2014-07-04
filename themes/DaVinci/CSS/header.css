@@ -1,52 +1,50 @@
 @charset "UTF-8";
 /* CSS Document */
 #header {
-	height: 184px; 
-	width: 1068px;
+	height: 129px;
+	width: 89%;
 	position: fixed;
 	top: 0px;
 	z-index: 20000;
-	background-color: #ffffff;
-	padding-top: 2px;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-image: url(../Testing/images/header_1134_gif.gif);
+	max-width: 1135px;
 }
 #logo {
 	background-color: #000000;
 	float: left;
-	height: 180px;
-	width: 297px;
-	background-image: url(Web%20site%20assets/logo_02.gif);
-	border-bottom: 4px solid #626D2E;
+	height: 123px;
+	width: 197px;
 }
 #headimage {
-	height: 132px;
-	width: 765px;
+	height: 87px;
 	float: left;
-	margin-left: 4px;
+	margin-left: 3px;
 	margin-top: 0px;
-	background-image: url(Web%20site%20assets/headerImage_02.gif);
 	background-origin: border-box;
-	margin-bottom: 4px;
+	margin-bottom: 3px;
+	background-image: url(Web%20site%20assets/headerImage_02.gif);
+	background-color: #AA09A2;
+	width: 81.95%;
+	position: absolute;
+	left: 196px;
 }
-#mainnav {
-	height: 48px;
-	width: 765px;
+#textnav {
+	height: 34px;
+	width: 360px;
 	list-style: none;
 	text-align: left;
 	float: left;
-	background-color: #000000;
-	border-bottom: 4px solid #931F24;
-	border-right: 0px solid #FFFFFF;
-	margin-left: 4px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	background-color: #E6DA3D;
 }
-#mainnav a {
+#textnav a {
 	display: inline-block;
 	color: #ffffff;
 	font-family: "museo-slab";
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 200;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
@@ -54,22 +52,26 @@
 	margin-left: 10px;
 	margin-top: 13px;
 }
-#mainnav  li {
+#textnav  li {
 	display: inline;
 }
 
-#mainnav ul {
+#textnav ul {
 	display: inline;
 }
-#navicons {
+#iconnav {
 	background-color: #31C6B1;
+	height: 34px;
+	width: 306px;
 	float: right;
-	height: 100px;
-	width: 200px;
 }
 #nav {
 	background-color: #EF3C3F;
-	height: 100px;
-	width: 700px;
+	height: 35px;
+	width: 81.95%;
+	float: left;
+	margin-left: 3px;
+	position: absolute;
+	left: 197px;
+	top: 90px;
 }
-
