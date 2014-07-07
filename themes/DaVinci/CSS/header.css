@@ -2,45 +2,57 @@
 /* CSS Document */
 #header {
 	height: 129px;
-	width: 89%;
 	position: fixed;
 	top: 0px;
 	z-index: 20000;
 	background-repeat: no-repeat;
 	background-clip: border-box;
 	background-origin: border-box;
-	background-image: url(../Testing/images/header_1134_gif.gif);
 	max-width: 1135px;
+	min-width: 768px;
+	background-color: white;
+	width: 100%;
 }
 #logo {
 	background-color: #000000;
 	float: left;
 	height: 123px;
 	width: 197px;
+	border-width: 0 0 3px 0px;
+	border-style: solid;
+	border-bottom-color: #DB0B0F;
 }
 #headimage {
 	height: 87px;
 	float: left;
-	margin-left: 3px;
-	margin-top: 0px;
 	background-origin: border-box;
-	margin-bottom: 3px;
 	background-image: url(Web%20site%20assets/headerImage_02.gif);
 	background-color: #AA09A2;
-	width: 81.95%;
+	width: 83%;
 	position: absolute;
-	left: 196px;
+	left: 200px;
 }
+
+#nav {
+	background-color: #EF3C3F;
+	height: 33px;
+	width: 83%;
+	float: left;
+	position: absolute;
+	left: 200px;
+	top: 90px;
+	border-width: 0px 0px 3px;
+	border-style: solid;
+	border-bottom-color: #4AE01F;
+}
+
 #textnav {
-	height: 34px;
-	width: 360px;
-	list-style: none;
-	text-align: left;
+	height: 33px;
+	width: 69%;
 	float: left;
 	background-color: #E6DA3D;
 }
 #textnav a {
-	display: inline-block;
 	color: #ffffff;
 	font-family: "museo-slab";
 	text-decoration: none;
@@ -48,30 +60,41 @@
 	font-weight: 200;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 13px;
+	width: 104px;
+	display: inline-block;
+	text-align: center;
 }
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
 #textnav  li {
-	display: inline;
+	float: left;
 }
 
 #textnav ul {
-	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	top: 7px;
+	left: 7px;
 }
+
 #iconnav {
 	background-color: #31C6B1;
-	height: 34px;
-	width: 306px;
+	height: 33px;
+	width: 193px;
+	margin: 0 0 0 0;
 	float: right;
 }
-#nav {
-	background-color: #EF3C3F;
-	height: 35px;
-	width: 81.95%;
-	float: left;
-	margin-left: 3px;
-	position: absolute;
-	left: 197px;
-	top: 90px;
+#test {
+	background-color: #34A9CB;
+	height: 700px;
+	min-height: 700px;
+	position: relative;
+	top: 130px;
+	max-width: 1135px;
+	display: none;
 }
