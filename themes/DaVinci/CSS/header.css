@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 /* CSS Document */
 #header {
 	height: 129px;
@@ -48,7 +48,7 @@
 
 #textnav {
 	height: 33px;
-	width: 69%;
+	width: 67%;
 	float: left;
 	background-color: #E6DA3D;
 }
@@ -85,7 +85,7 @@ a:hover, a:active {
 #iconnav {
 	background-color: #31C6B1;
 	height: 33px;
-	width: 193px;
+	width: 208px;
 	margin: 0 0 0 0;
 	float: right;
 }
