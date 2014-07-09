@@ -1,15 +1,8 @@
 @charset "UTF-8";
-#header {
-	min-height: 125px;
-	z-index: 1000;
-	position: fixed;
-	margin-bottom: 4px;
-	max-width: 1134px;
-}
 #main {
 	min-height: 745px;
 	overflow-x: hidden;
-	max-width: 1134px;
+	max-width: 1142px;
 }
 .container {
 	

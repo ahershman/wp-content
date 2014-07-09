@@ -1,12 +1,4 @@
 @charset "UTF-8";
-#header {
-	background-color: #E41518;
-	position: fixed;
-	z-index: 1000;
-	height: 125px;
-	width: 1135px;
-	top: 0px;
-}
 
 #content {
 	background-color: #ACE86A;

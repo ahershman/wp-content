@@ -20,18 +20,18 @@
 	width: 197px;
 	border-width: 0 0 3px 0px;
 	border-style: solid;
-	border-bottom-color: #DB0B0F;
-	background-image: url(../Testing/images/logo_03.gif);
+	border-bottom-color: #626D2D;
+	background-image: url(../images/logo_03.gif);
 }
 #headimage {
 	height: 87px;
 	float: left;
 	background-origin: border-box;
-	background-image: url(Web%20site%20assets/headerImage_02.gif);
 	background-color: #AA09A2;
 	width: 83%;
 	position: absolute;
 	left: 200px;
+	background-image: url(../images/headerImage_02.gif);
 }
 
 #nav {
@@ -44,14 +44,14 @@
 	top: 90px;
 	border-width: 0px 0px 3px;
 	border-style: solid;
-	border-bottom-color: #4AE01F;
+	border-bottom-color: #931E23;
 }
 
 #textnav {
 	height: 33px;
 	width: 67%;
 	float: left;
-	background-color: #E6DA3D;
+	background-color: black;
 }
 #textnav a {
 	color: #ffffff;
