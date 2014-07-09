@@ -1,10 +1,24 @@
 <html>
 <head>
- <title>header</title>
+ <title>DaVinci Maps</title>
  <script type="text/javascript" src="//use.typekit.net/bce7uaq.js"></script>
  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
  <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/header.css'; ?>">
  
+ <script>
+	  		function geth() {
+			// get proper node
+			var e = document.getElementById("content");
+			var l = e.children.length;
+			var x = e.children[l-2];
+			var h = window.getComputedStyle(x);
+			return h.height;
+			}
+			
+			
+					
+</script>
+
  
 </head>
 
@@ -24,6 +38,3 @@
     	<div id="iconnav">Content for  id "navicons" Goes Here</div>
    </div>
   </header>
-</body>
-
-</html>

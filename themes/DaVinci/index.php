@@ -1,23 +1,8 @@
-
-<script>
-	  		function geth() {
-			// get proper node
-			var e = document.getElementById("content");
-			var l = e.children.length;
-			var x = e.children[l-2];
-			var h = window.getComputedStyle(x);
-			return h.height;
-			}
-			
-			
-					
-</script>
 <?php get_header(); ?>
 
 <div id="wrapper">
   <div id="main">
     <div id="content">
-    
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <?php
       $customfieldsArray = get_post_custom();
@@ -31,8 +16,9 @@
 					 //adjust height of slippy div iframe based on thumnail height
 					 
 					 $tn = get_the_post_thumbnail();
-						 
-					 preg_match('/height="[0-9]+"/', $tn, $match); //extract height string from html img tag
+					 
+					//extract height string from html img tag 
+					 preg_match('/height="[0-9]+"/', $tn, $match); 
 					 
 					 $len = strlen($match[0]);
 					 $height = (int)substr($match[0],8,$len-9); //extract height number
@@ -71,3 +57,5 @@
   <?php get_sidebar(); ?>
   <!-- <?php get_footer(); ?> -->
 </div>
+</body>
+</html> 
