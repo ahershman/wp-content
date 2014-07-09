@@ -21,6 +21,7 @@
 	border-width: 0 0 3px 0px;
 	border-style: solid;
 	border-bottom-color: #DB0B0F;
+	background-image: url(../Testing/images/logo_03.gif);
 }
 #headimage {
 	height: 87px;
@@ -34,7 +35,7 @@
 }
 
 #nav {
-	background-color: #EF3C3F;
+	background-color: #000000;
 	height: 33px;
 	width: 83%;
 	float: left;
@@ -83,7 +84,7 @@ a:hover, a:active {
 }
 
 #iconnav {
-	background-color: #31C6B1;
+	background-color: #000000;
 	height: 33px;
 	width: 208px;
 	margin: 0 0 0 0;
