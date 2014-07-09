@@ -23,6 +23,7 @@
  <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/Common.css'; ?>">
  <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/header.css'; ?>">
  <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/home.css'; ?>">
+ <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/cartodb.css'; ?>">
  
  
 </head>
