@@ -7,7 +7,7 @@ get_header();
 
 ?>
 
-<div id="main">
+
 	<div class="textNav">Content for  class "textNav" Goes Here</div>
 	<div id="content">
 		<div id="slideshow">
@@ -17,6 +17,6 @@ get_header();
 			<div id="s22">,<br><br>Perhaps the fracking map with slider</div>
 		</div><!-- slideshow -->
 	</div><!-- content -->
-</div><!-- main -->
+
 
 <?php get_footer(); ?>

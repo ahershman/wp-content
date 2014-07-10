@@ -1,15 +1,15 @@
  @charset "UTF-8";
 /* CSS Document */
 #header {
-	height: 129px;
+	height: 128px;
 	position: fixed;
 	top: 0px;
 	z-index: 20000;
 	background-repeat: no-repeat;
 	background-clip: border-box;
 	background-origin: border-box;
-	max-width: 1135px;
-	min-width: 768px;
+	max-width: 1136px;
+	min-width: 888px;
 	background-color: white;
 	width: 100%;
 }
@@ -28,7 +28,7 @@
 	float: left;
 	background-origin: border-box;
 	background-color: #AA09A2;
-	width: 83%;
+	width: 82.5%;
 	position: absolute;
 	left: 200px;
 	background-image: url(../images/headerImage_02.gif);
@@ -37,7 +37,7 @@
 #nav {
 	background-color: #000000;
 	height: 33px;
-	width: 83%;
+	width: 82.5%;
 	float: left;
 	position: absolute;
 	left: 200px;
@@ -49,7 +49,7 @@
 
 #textnav {
 	height: 33px;
-	width: 67%;
+	width: 520px;
 	float: left;
 	background-color: black;
 }
@@ -98,4 +98,8 @@ a:hover, a:active {
 	top: 130px;
 	max-width: 1135px;
 	display: none;
+}
+#nav img {
+	margin-top: 3px;
+	margin-left: -3px;
 }

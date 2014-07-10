@@ -1,12 +1,4 @@
 @charset "UTF-8";
-#main {
-	min-height: 745px;
-	overflow-x: hidden;
-	max-width: 1142px;
-}
-.container {
-	
-}
 .textNav {
 	min-height: 571px;
 	margin-right: 4px;
@@ -20,20 +12,12 @@
 #content {
 	min-height: 571px;
 	left: 200px;
-	top: 128px;
-	max-width: 943px;
+	top: 130px;
+	max-width: 938px;
 	position: relative;
 	background-color: #5BAA2E;
 }
-body {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 10px;
-	padding-left: 10px;
-	display: inherit;
-}
+
 #slideshow {
 	height: 528px;
 	width: 879px;
