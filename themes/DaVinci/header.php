@@ -19,23 +19,29 @@
 					
 </script>
 
-<?php print "<!-- ".site_url()."-->\n" ?>
 
  <!-- All stysheet links go here : will be consolidated into style.css -->
  <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/Common.css'; ?>">
  <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/header.css'; ?>">
- <?php if (is_home() ) { ?>
-	 <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/home.css'; ?>">
-     <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/cartodb.css'; ?>">
+ <?php if (is_page_template('page.php') ) { ?>
+	 <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/page.css'; ?>">
+     <link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/carto.css'; ?>">
  <?php }
    	elseif (is_page_template('portfolio.php')) { ?>
  			<link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/portfolio.css'; ?>">
+ 
+ <?php } 
+ 	elseif (is_page_template('about.php')) { ?>
+ 			<link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/about.css'; ?>">
+ <?php }
+ 	elseif (is_home()) { ?>
+    		<link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/style.css'; ?>">
  <?php }; ?>
- 		
  
 </head>
 
 <body>
+<?php print "<!-- ".get_page_link()." -->\n" ?>
 	<header id="header">
 		<div id="logo"></div>
 		<div id="headimage"></div>
@@ -43,8 +49,8 @@
 			<div id="textnav">
 				<ul>
 					<li><a href="<?php print site_url(); ?>">Home</a></li>
-					<li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
+					<li><a href="?page_id=84">About</a></li>
+                    <li><a href="?page_id=93">Blog</a></li>
 					<li><a href="#">Login</a></li>
                     <li><a href="?page_id=82">Portfolio</a></li>
 				</ul>
