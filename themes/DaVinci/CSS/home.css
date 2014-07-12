@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.textNav {
+	min-height: 571px;
+	margin-right: 4px;
+	float: left;
+	background-color: #CFC7C7;
+	min-width: 197px;
+	max-width: 197px;
+	top: 138px;
+	position: fixed;
+}
+#content {
+	min-height: 571px;
+	left: 200px;
+	top: 130px;
+	max-width: 938px;
+	position: relative;
+	background-color: #5BAA2E;
+}
+
+#slideshow {
+	height: 528px;
+	width: 879px;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	top: 9px;
+	left: 18px;
+}
+#s11 {
+	width: 544px;
+	height: 312px;
+	background-color: #E80C19;
+	float: left;
+	min-width: 544px;
+	min-height: 312px;
+}
+#s12 {
+	width: 335px;
+	height: 312px;
+	background-color: #880BEE;
+	min-width: 335px;
+	min-height: 312px;
+	float: left;
+}
+#s21 {
+	width: 300px;
+	height: 216px;
+	float: left;
+	clear: left;
+}
+#s22 {
+	width: 579px;
+	height: 218px;
+	float: right;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+	text-shadow: 2px 2px #B0A6A6;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;
+}

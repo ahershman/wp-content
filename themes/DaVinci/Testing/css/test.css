@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+#slideshow {
+	height: 528px;
+	width: 879px;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	top: 9px;
+	left: 18px;
+}
+#s11 {
+	width: 544px;
+	height: 312px;
+	background-color: #E80C19;
+
+}
+#s12 {
+	width: 335px;
+	height: 312px;
+	background-color: #880BEE;
+
+
+}
+#s21 {
+	width: 300px;
+	height: 216px;
+	background-color: #DDBC0B;
+	
+}
+#s22 {
+	width: 579px;
+	height: 218px;
+	background-color: #000000;
+	
+}
+

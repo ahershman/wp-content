@@ -31,11 +31,17 @@
 		 		elseif ( has_post_thumbnail() ){	 
 			 	 		the_post_thumbnail(); 
 				 }
-		 		/*else echo "&nbsp;"; */
+		 		else echo "&nbsp;";
 		  ?>
 
 	</div><!-- content-image -->
 	<div class="content-text">
+		<script>
+			var x = geth();
+			document.getElementById("content").lastChild.style.minHeight = x;
+		</script>
+
+
 		<h1><?php the_title(); ?></h1>
 		<!--<h4>Posted on <?php the_time('F jS, Y') ?></h4> -->
 		<p><?php the_content(__('(more...)')); ?></p> 

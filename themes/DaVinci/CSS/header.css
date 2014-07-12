@@ -1,0 +1,105 @@
+ @charset "UTF-8";
+/* CSS Document */
+#header {
+	height: 128px;
+	position: fixed;
+	top: 0px;
+	z-index: 20000;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	background-origin: border-box;
+	max-width: 1136px;
+	min-width: 888px;
+	background-color: white;
+	width: 1135px;
+}
+#logo {
+	background-color: #000000;
+	float: left;
+	height: 123px;
+	width: 197px;
+	border-width: 0 0 3px 0px;
+	border-style: solid;
+	border-bottom-color: #626D2D;
+	background-image: url(../images/logo_03.gif);
+}
+#headimage {
+	height: 87px;
+	float: left;
+	background-origin: border-box;
+	background-color: #AA09A2;
+	width: 935px;
+	position: absolute;
+	left: 200px;
+	background-image: url(../images/header_image_935.gif);
+}
+
+#nav {
+	background-color: #000000;
+	height: 33px;
+	width: 935px;
+	float: left;
+	position: absolute;
+	left: 200px;
+	top: 90px;
+	border-width: 0px 0px 3px;
+	border-style: solid;
+	border-bottom-color: #931E23;
+}
+
+#textnav {
+	height: 33px;
+	width: 520px;
+	float: left;
+	background-color: black;
+}
+#textnav a {
+	color: #ffffff;
+	font-family: "museo-slab";
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	width: 104px;
+	display: inline-block;
+	text-align: left;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
+#textnav  li {
+	float: left;
+}
+
+#textnav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	top: 7px;
+	left: 7px;
+}
+
+#iconnav {
+	background-color: #000000;
+	height: 33px;
+	width: 208px;
+	margin: 0 0 0 0;
+	float: right;
+}
+#test {
+	background-color: #34A9CB;
+	height: 700px;
+	min-height: 700px;
+	position: relative;
+	top: 130px;
+	max-width: 1135px;
+	display: none;
+}
+#nav img {
+	margin-top: 3px;
+	margin-left: -3px;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main {
+	background-color: #F1CFCF;
+	height: 1030px;
+	width: 1135px;
+}
+.image {
+	background-color: #F4C7F7;
+	height: 200px;
+	width: 200px;
+	float: left;
+	clear: both;
+	margin-top: 21px;
+}
+.text {
+	background-color: #5673DA;
+	height: 400px;
+	width: 788px;
+	float: right;
+	margin-top: 13px;
+}

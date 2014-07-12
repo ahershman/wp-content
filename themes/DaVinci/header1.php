@@ -5,6 +5,19 @@
  <script type="text/javascript" src="//use.typekit.net/bce7uaq.js"></script>
  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+ <script>
+	  		function geth() {
+			// get proper node
+			var e = document.getElementById("content");
+			var l = e.children.length;
+			var x = e.children[l-2];
+			var h = window.getComputedStyle(x);
+			return h.height;
+			}
+			
+			
+					
+</script>
 
 
  <!-- All stysheet links go here : will be consolidated into style.css -->
@@ -21,7 +34,7 @@
  	elseif (is_page_template('about.php')) { ?>
  			<link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/CSS/about.css'; ?>">
  <?php }
- 	elseif (is_home() || is_page_template('blog-summary.php') ){ ?>
+ 	elseif (is_home()) { ?>
     		<link rel="stylesheet" href="<?php print get_stylesheet_directory_uri().'/style.css'; ?>">
  <?php }; ?>
  
@@ -43,16 +56,7 @@
 				</ul>
 			</div><!-- textnav -->
 			<div id="iconnav"><img src="<?php print get_stylesheet_directory_uri().'/images/socialMediaIcons.gif'; ?>"
-								 width="209" height="26" alt=""/ usemap="#Map">
-            	<map name="Map">
-      				<area shape="rect" coords="0,0,33,26" href="<?php print get_stylesheet_directory_uri().'/link_to.html'; ?>">
-      				<area shape="rect" coords="40,0,65,26" href="<?php print get_stylesheet_directory_uri().'/sample form.html'; ?>">
-      				<area shape="rect" coords="75,0,99,26" href=#>
-      				<area shape="rect" coords="112,0,137,26" href="#">
-      				<area shape="rect" coords="145,0,173,26" href=#">
-      				<area shape="rect" coords="184,0,207,26" href=#>
-    </map>
-            </div>
+								 width="209" height="26" alt=""/></div>
 		</div><!-- nav-->
 	</header>
 <!-- body and html closing tags are in footer.php-->
