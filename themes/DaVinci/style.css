@@ -11,8 +11,6 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	top: 130px;
 	max-width: 1135px;
 	position: relative;
-	display: block;
-	height: 600px;
 }
 
 
@@ -20,12 +18,15 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 .content-text {
 	width: 633px;
 	margin-left: 13px;
-	float: left;
 	font-family: "museo-slab";
 	font-weight: 300;
 	font-size: 11pt;
 	margin-top: 0px;
 	margin-bottom: 52px;
+	position: relative;
+	top: 21px;
+	left: -193px;
+	float: right;
 }
 
 .content-image {
@@ -33,16 +34,14 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	margin-top: 0px;
 	min-height: 11px;
 	float: left;
-	margin-bottom: 50px;
+	clear: both;
+	margin-bottom: 47px;
 	position: relative;
-	top: 22px;
+	top: 41px;
 	clear: both;
 }
 .content-image img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -8px;
 }
 .content-text h1 {
 	color: #931F24;
@@ -51,13 +50,14 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	line-height: 26pt;
 	display: block;
 	font-size: 26px;
+	text-align: left;
 }
 
 #sidebar {
 	width: 210px;
-	left: 918px;
+	left: 956px;
 	position: fixed;
-	top: 137px;
+	top: 165px;
 }
 #sidebar h2 {
 	color: #5F6A2E;
